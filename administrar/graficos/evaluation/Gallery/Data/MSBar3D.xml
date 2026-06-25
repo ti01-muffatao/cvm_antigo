@@ -1,0 +1,24 @@
+<chart palette='2' caption='Eventos Gerados por Veículo' shownames='1' showvalues='0' decimals='0' numberPrefix=''>
+<categories><category label='ABC-1434' /><category label='BCD-3901' /><category label='DEF-9001' /><category label='ABB-0018' /><category label='BNM-9101' /></categories>
+<dataset seriesName='Maio' color='AFD8F8' showValues='0'>
+<set value='25.34' />
+<set value='20.82' />
+<set value='17.76' />
+<set value='35.15' />
+<set value='38.68' />
+</dataset>
+<dataset seriesName='Junho' color='F6BD0F' showValues='0'>
+<set value='57.85' />
+<set value='41.19' />
+<set value='45.37' />
+<set value='110.16' />
+<set value='11.27' />
+</dataset>
+<dataset seriesName='Julho' color='8BBA00' showValues='0'>
+<set value='50.65' />
+<set value='45.76' />
+<set value='12.18' />
+<set value='77.31' />
+<set value='33.68' />
+</dataset>
+</chart>

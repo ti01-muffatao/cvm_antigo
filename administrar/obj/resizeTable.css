@@ -1,0 +1,19 @@
+.draghandle.dragged
+{
+	border-left: 1px solid #CCCCCC;
+}
+
+.draghandle
+{
+	position: absolute; 
+	z-index:5; 
+	width:5px;
+	cursor:e-resize;
+}
+
+TH
+{
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}

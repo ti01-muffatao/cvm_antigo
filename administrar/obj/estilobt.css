@@ -1,0 +1,35 @@
+toolbar 	{	
+			margin: 0px;
+			padding: 0;
+			width: 262px;
+			background: #EBEBEB;
+			border-top: 1px solid buttonhighlight;
+			border-left: 1px solid buttonhighlight;
+			border-bottom: 1px solid buttonshadow;
+			border-right: 1px solid buttonshadow;
+			text-align:right;
+		  	}
+			
+.button 	{
+			background: #F5F5F5;
+			border: 1px solid #F5F5F5;
+			margin: 1px; 
+			}
+			
+.raised		{ 
+			background: #F5F5F5;
+			border-top: 1px solid buttonhighlight;
+			border-left: 1px solid buttonhighlight;
+			border-bottom: 1px solid buttonshadow;
+			border-right: 1px solid buttonshadow;
+			margin: 1px;
+			}
+			
+.pressed	{
+			background: #F5F5F5;
+			border-top: 1px solid buttonshadow;
+			border-left: 1px solid buttonshadow;
+			border-bottom: 1px solid buttonhighlight;
+			border-right: 1px solid buttonhighlight;
+			margin: 1px;
+			}

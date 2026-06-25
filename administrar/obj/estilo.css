@@ -1,0 +1,122 @@
+/* DEFINIÇÃO DA FONTE ENCONTRADA NA MAIORIA DOS COMPUTADORES */
+body
+{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin:0px;
+  font-family: verdana;
+  text-size: 8pt;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+}
+
+/*	ESTILO DOS OBJETOS */
+.selectboxnormal
+{
+    BORDER-RIGHT: #a1adb9 1px solid;
+    BORDER-TOP: #a1adb9 1px solid;
+    BORDER-LEFT: #a1adb9 1px solid;
+    BORDER-BOTTOM: #a1adb9 1px solid;
+    COLOR: black;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Verdana;
+    /*BACKGROUND-COLOR: #c6dae9;*/
+    BACKGROUND-COLOR: #FFFFFF;
+}
+/*	ESTILO PARA CABEÇALHOS */
+.cabecalho
+{
+    BORDER-RIGHT: buttonshadow 1px solid;
+    BORDER-TOP: buttonhighlight 1px solid;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: buttonhighlight 1px solid;
+    CURSOR: default;
+    BORDER-BOTTOM: buttonshadow 1px solid;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #517DAE
+}
+/*	ESTILO DOS BOTÕES SEM FOCO E NA SAÍDA DO FOCO */
+.flatActv
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+	border-right-color: #759DDA;
+	border-bottom-color: #759DDA;
+	border-left-color: #759DDA;
+	border-top-color: #759DDA;
+    WIDTH: 100px;
+    COLOR: #759DDA;
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: #ffffff;
+    CURSOR:hand
+}
+/*	ESTILO DOS BOTÕES COM FOCO */
+.flatDActv
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	border-top-color: #999999;
+    WIDTH: 100px;
+    COLOR: black;
+    HEIGHT: 20px;
+    BACKGROUND-COLOR: #ffffff;
+    CURSOR:hand
+}
+
+.tabelas
+{
+	font-family:verdana;
+	font-size:11px;
+	border-collapse:collapse;
+	border-color:#DDD7CA;
+}
+
+/* TIRA OS LINKS DOS MENUS E FIXA IMAGEM DE FUNDO QUANDO TIVER */
+a:link       { text-decoration: none; color: #000000; font-family:  Times New Roman, Helvetica }
+a:visited    { text-decoration: none; color: #000000; font-family:  Times New Roman, Helvetica }
+a:active     { text-decoration: none; color: #000000; font-family:  Times New Roman, Helvetica }
+a:hover      { text-decoration: none; color: #000000; font-family:  Times New Roman, Helvetica }
+
+a.tooltips {
+  position: relative;
+  display: inline;
+}
+a.tooltips span {
+  position: absolute;
+  width:140px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 2px #666666;
+  background: #004000;
+  height: 21px;
+  line-height: 21px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 4px;
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-bottom: 8px solid #004000;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+a:hover.tooltips span {
+  visibility: visible;
+  opacity: 0.9;
+  top: 30px;
+  left: 50%;
+  margin-left: -76px;
+  z-index: 999;
+}

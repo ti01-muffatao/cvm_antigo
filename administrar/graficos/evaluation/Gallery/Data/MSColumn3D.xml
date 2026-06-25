@@ -1,0 +1,24 @@
+<chart caption='Eventos Tratados - Registros Efetivados - RasterGR' shownames='1' showvalues='0' decimals='0' numberPrefix=''>
+<categories><category label='Desvio de Rota' /><category label='Atraso de Viagem' /><category label='Desengate' /><category label='Fora Horario' /><category label='Carregamentos' /></categories>
+<dataset seriesName='Abril' color='AFD8F8' showValues='0'>
+<set value='256.34' />
+<set value='201.82' />
+<set value='173.76' />
+<set value='354.15' />
+<set value='381.68' />
+</dataset>
+<dataset seriesName='Maio' color='F6BD0F' showValues='0'>
+<set value='571.85' />
+<set value='411.19' />
+<set value='453.37' />
+<set value='1120.16' />
+<set value='1145.27' />
+</dataset>
+<dataset seriesName='Junho' color='8BBA00' showValues='0'>
+<set value='450.65' />
+<set value='448.76' />
+<set value='187.18' />
+<set value='775.31' />
+<set value='926.68' />
+</dataset>
+</chart>

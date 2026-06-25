@@ -1,0 +1,2 @@
+<h4 class="card-title text-center" style="background-image: linear-gradient(to right,#1cbf10, #4e41fe); color: white; padding: 10px">Seu grupo: </h4>
+<h1 style="font-size: 60px;" class="text-center"><?= $_SESSION['CD_GRUPO'] == '6' ? 'GDM' : $_SESSION['CD_GRUPO'] ?></h1>

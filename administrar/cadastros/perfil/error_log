@@ -1,0 +1,7 @@
+[27-Oct-2017 16:46:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/portalmu/campanhadeverao.portalmuffatao.com.br/administrar/conexao.php on line 3
+[27-Oct-2017 16:46:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/portalmu/campanhadeverao.portalmuffatao.com.br/administrar/conexao.php on line 3
+[27-Oct-2017 16:46:46 UTC] PHP Notice:  Undefined variable: ds_perfil in /home/portalmu/campanhadeverao.portalmuffatao.com.br/administrar/cadastros/perfil/formulario.php on line 13
+[27-Oct-2017 16:46:48 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/portalmu/campanhadeverao.portalmuffatao.com.br/administrar/conexao.php on line 3
+[27-Oct-2017 16:46:48 UTC] PHP Notice:  Undefined variable: TxPesquisa in /home/portalmu/campanhadeverao.portalmuffatao.com.br/administrar/cadastros/perfil/lista.php on line 14
+[27-Oct-2017 16:46:48 UTC] PHP Notice:  Undefined variable: Cont in /home/portalmu/campanhadeverao.portalmuffatao.com.br/administrar/cadastros/perfil/lista.php on line 18
+[27-Oct-2017 16:46:48 UTC] PHP Notice:  Undefined variable: cor in /home/portalmu/campanhadeverao.portalmuffatao.com.br/administrar/cadastros/perfil/lista.php on line 19

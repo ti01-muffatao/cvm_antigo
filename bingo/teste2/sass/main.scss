@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // margin: 0 auto;
+    width: 100%;
+}
+
+td,th{
+    width: 100px;
+    height: 85px;
+}
+
+td{
+    background-color: #F06292;
+    color: #fff;
+    font-size: 20px;
+}
+th{
+    color: #F06292;
+    font-size: 30px;
+}
